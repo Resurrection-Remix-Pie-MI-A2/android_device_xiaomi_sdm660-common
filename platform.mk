@@ -220,6 +220,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 	$(PLATFORM_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
+# Sony Music
+PRODUCT_COPY_FILES += \
+	$(PLATFORM_PATH)/configs/sony/com.sony.device.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sony.device.jar \
+	$(PLATFORM_PATH)/configs/sony/com.sonyericsson.music.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.music.jar \
+	$(PLATFORM_PATH)/configs/sony/com.sonyericsson.system.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.system.jar \
+	$(PLATFORM_PATH)/configs/sony/com.sony.device.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sony.device.xml \
+	$(PLATFORM_PATH)/configs/sony/com.sonyericsson.system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.system.xml
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
 	$(PLATFORM_PATH)/configs/keylayout/sdm660-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sdm660-snd-card_Button_Jack.kl \
