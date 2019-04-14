@@ -95,9 +95,5 @@ on property:sys.boot_completed=1
     chown system system /sys/devices/soc/soc:qcom,cpubw/devfreq/soc:qcom,cpubw/bw_hwmon/hist_memory
     chown system system /sys/devices/soc/soc:qcom,cpubw/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_length
 
-    # Disable sched boost
-    write /proc/sys/kernel/sched_boost 0
-    chmod 0444 /proc/sys/kernel/sched_boost
-
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
