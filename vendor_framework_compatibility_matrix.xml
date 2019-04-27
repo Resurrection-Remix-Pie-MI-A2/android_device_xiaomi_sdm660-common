@@ -47,6 +47,18 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+         <name>vendor.lineage.livedisplay</name>
+         <version>2.0</version>
+         <interface>
+             <name>IDisplayModes</name>
+             <instance>default</instance>
+         </interface>
+         <interface>
+            <name>IPictureAdjustment</name>
+            <instance>default</instance>
+         </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.display.config</name>
         <version>1.0-6</version>
         <interface>
