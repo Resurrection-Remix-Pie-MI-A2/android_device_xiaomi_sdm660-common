@@ -53,11 +53,11 @@
 #endif
 
 #ifndef TAP_TO_WAKE_NODE_WAYNE
-#define TAP_TO_WAKE_NODE "/proc/nvt_wake_gesture"
+#define TAP_TO_WAKE_NODE_WAYNE "/proc/nvt_wake_gesture"
 #endif
 
 #ifndef TAP_TO_WAKE_NODE_CLOVER
-#define TAP_TO_WAKE_NODE "/proc/touchscreen/enable_dt2w"
+#define TAP_TO_WAKE_NODE_CLOVER "/proc/touchscreen/enable_dt2w"
 #endif
 
 #define ARRAY_SIZE(x) (sizeof((x))/sizeof((x)[0]))
