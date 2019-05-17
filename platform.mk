@@ -458,10 +458,6 @@ PRODUCT_COPY_FILES += \
 	$(PLATFORM_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
 	$(PLATFORM_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
-# XiaomiParts
-PRODUCT_PACKAGES += \
-	XiaomiParts
-
 # KeyHandler
 PRODUCT_PACKAGES += \
 	org.lineageos.keyhandler
