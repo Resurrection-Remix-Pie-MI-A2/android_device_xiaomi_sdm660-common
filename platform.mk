@@ -334,7 +334,6 @@ PRODUCT_PACKAGES += \
 	init.qcom.rc \
 	init.qcom.usb.rc \
 	init.target.rc \
-	init.performance.sdm660.rc \
 	ueventd.qcom.rc
 
 # RCS
