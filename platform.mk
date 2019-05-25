@@ -450,5 +450,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Lens
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 PRODUCT_PACKAGES += \
 	libnl
