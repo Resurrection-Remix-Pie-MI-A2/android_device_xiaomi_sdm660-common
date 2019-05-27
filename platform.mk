@@ -446,6 +446,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
   WfdCommon
 
+# calendar
+PRODUCT_PACKAGES += \
+    calendar
+
 # arcore
 PRODUCT_PACKAGES += \
     arcore
