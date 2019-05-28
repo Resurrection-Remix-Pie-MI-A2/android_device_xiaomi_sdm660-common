@@ -454,14 +454,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
   WfdCommon
 
-# arcore
-PRODUCT_PACKAGES += \
-    arcore
-
- # Lens
-PRODUCT_PACKAGES += \
-    Lens
-
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
