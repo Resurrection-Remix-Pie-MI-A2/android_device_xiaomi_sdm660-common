@@ -466,10 +466,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Calendar
 
-# Chromium
-PRODUCT_PACKAGES += \
-    Chromium    
-
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
