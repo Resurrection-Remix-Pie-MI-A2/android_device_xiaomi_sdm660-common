@@ -454,17 +454,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
   WfdCommon
 
-# calendar
-PRODUCT_PACKAGES += \
-    calendar
-
 # arcore
 PRODUCT_PACKAGES += \
     arcore
 
- # Lens
+# Lens
 PRODUCT_PACKAGES += \
     Lens
+
+# Calendar
+PRODUCT_PACKAGES += \
+    Calendar
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
